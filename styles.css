@@ -49,7 +49,29 @@
         #ffff66 21%,
         #bbeeff 100%
       );
+      animation: daynight 5s ease-in 3s infinite;
   }
+  @keyframes daynight{
+    0%{
+      background: radial-gradient(
+        closest-corner circle at 15% 15%,
+        #ffcf33,
+        #ffcf33 20%,
+        #ffff66 21%,
+        #bbeeff 100%
+      )
+    }
+    100%{
+      background: radial-gradient(
+          closest-corner circle at 15% 15%,
+          #ccc,
+          #ccc 20%,
+          #445 21%,
+          #223 100%
+        );
+      }
+  }
+ 
   
   /* BACKGROUND BUILDINGS - "bb" stands for "background building" */
   .bb1 {
@@ -296,6 +318,12 @@
         var(--window-color3) 30%
       );
   }
+
+  @keyframe day-night{
+    0%{
+
+    }
+  }
   
   @media (max-width: 1000px) {
     :root {
@@ -308,8 +336,8 @@
       --window-color3: #777;
       --window-color4: #777;
     }
-    *{
-        transition-property: background, border-bottom;
+    div, .sky{
+        transition-property: background, background-color, border-bottom;
         transition-timing-function: ease-in;
         transition-duration: 1s;
     }
@@ -323,3 +351,34 @@
         );
     }
   }
+
+/* bb1
+  .bb1a
+  .bb1b
+  .bb1c
+  .bb1d
+.bb2
+  .bb2a
+  .bb2b
+.bb3
+.bb4
+  .bb4-window 
+  
+fb1
+  fb1a
+  fb1b
+  fb1c
+fb2
+  fb2a
+  fb2b
+    fb2-window
+fb3
+  fb3a
+    fb3-window
+  fb3b
+fb4
+  fb4a
+  fb4b
+    fb4-window
+fb5
+fb6*/
