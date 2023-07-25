@@ -21,19 +21,35 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](images/QR%20ss.jpg)
+![](./screenshot.jpg)
+
+Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+
+Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+
+**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Navi33/navi33.github.io.git)
-- Live Site URL: [Add live site URL here](https://navi33.github.io/)
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
+- CSS custom properties
 - Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Styled Components](https://styled-components.com/) - For styles
+
+**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -41,29 +57,47 @@ Use this section to recap over some of your major learnings while working throug
 
 To see how you can add code snippets, see below:
 
-First off, is I love having the style guide as this is my first time building a page with it. It helps takes of the hard part for me which is the design part. 
-
-Applied a reusable CSS
+```html
+<h1>Some HTML code I'm proud of</h1>
+```
 ```css
-.round-border{
-    border-radius: 0.5rem;
+.proud-of-this-css {
+  color: papayawhip;
+}
+```
+```js
+const proudOfThisFunc = () => {
+  console.log('🎉')
 }
 ```
 
+If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+
+**Note: Delete this note and the content within this section and replace with your own learnings.**
+
 ### Continued development
 
-I am not yet comfortable with HTML and CSS and will continnue to do this atleast weakly for practice. I would like to improve on how to 
+Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+
+**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Kevin Powell's video for one of the challenge](https://www.youtube.com/watch?v=KqFAs5d3Yl8&t=358s) - I actually have seen a youtube short of him mentioning Front End Mentor for practice but this video sold me.
+- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+
+**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [navi33](https://navi33.github.io/) Soon to be my Personal website.
-- Frontend Mentor - [@Navi33](https://www.frontendmentor.io/profile/Navi33)
-- Twitter - [@xemnes003](https://twitter.com/xemnes003) * Will change to a professional twitter account for my coding once made.
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
+**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-As mentioned in the Useful resources. I am now struggling to get out of tutorial hell and this feels like a positive step in doing so. Kevin Powell's Youtube channel is one of my goto resources for Front end knowledge.
+This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+
+**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
